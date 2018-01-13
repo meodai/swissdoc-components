@@ -1,0 +1,15 @@
+{
+	"devDependencies": {
+		"@storybook/react": "^3.3.9",
+		"babel-core": "^6.26.0",
+		"glob-loader": "^0.3.0",
+		"lerna": "^2.5.1"
+	},
+	"dependencies": {
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0"
+	},
+	"scripts": {
+		"start": "NODE_ENV=development start-storybook -p 9008 -c .storybook"
+	}
+}
